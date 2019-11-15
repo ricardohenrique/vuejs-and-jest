@@ -15,7 +15,7 @@ describe('FancyHeading.vue', () => {
     const headingData = mountComponentWithProps(FancyHeading, { color: 'blue' });
     const styleData = headingData.style.getPropertyValue('color');
 
-    console.log(styleData)
+    //console.log(styleData)
 
     expect(styleData).toEqual('blue');
   });
